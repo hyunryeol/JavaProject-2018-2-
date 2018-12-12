@@ -49,6 +49,15 @@
 - Node.js part
   - 11/19 19:04 node.js이용 데이터베이스 특정값 터미널 리턴 성공
   - 11/19 19:05~ 11/22 localhost 데이터 베이스 값 출력 
+  - 12/8 AndroidStudio Node.js Mysql 연동해서 메세지 출력
+    -node.js localhost:3000/test 홈페이지 데이터값 출력시 보이는 데이터값 "<br/>"추가하여 변경
+    -node.js AndroidStudio를 연결하기위에 AndroidStudio XML에 INTERNET 퍼미션 추가
+  - 12/11 AndroidStudio Node.js Mysql 연동해서 Mysql에 있는 pc_status 데이터값으로 Layout_6202안에 좌석 색 변경 성공
+    -AndroidStudio에 node.js 받아올 API 추가
+    -AndroidStudio layout 추상화(자리생성 layout)
+    -AndroidStudio 에서 서버에 연결실패햇을경우를 위해 toast msg 추가
+    -Node.js 에서 서버에 연결실패 성공 여부를 확인하기위해 err, 터미널에 "GET /test 200 33.858 ms - 769" 같이 AndroidStudio에 dev
+
 
 * * *
 - android studio part
